@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kaitlyn Rawlings — Restoration Ecology & GIS</title>
-  <meta name="description" content="Environmental scientist and GIS analyst specializing in watershed science, river restoration, and spatial analysis.">
+  <meta name="description" content="Environmental scientist and GIS analyst with a background in field ecology and spatial analysis, pursuing graduate research in river restoration and watershed science.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@
       </div>
       <p class="gate-eyebrow">Portfolio — In Progress</p>
       <h1 class="gate-title">Kaitlyn Rawlings</h1>
-      <p class="gate-sub">Restoration Ecology &amp; Watershed Science</p>
+      <p class="gate-sub">Restoration Ecology &amp; GIS</p>
       <div class="gate-form">
         <input type="password" id="pw-input" class="gate-input" placeholder="Enter password" autocomplete="current-password">
         <button class="gate-btn" onclick="checkPassword()">Enter Site</button>
@@ -66,25 +66,60 @@
     </div>
   </nav>
 
-  <!-- HERO -->
+  <!-- HERO: three-column layout -->
   <section id="hero">
-    <div class="hero-inner">
-      <p class="hero-eyebrow">
-        <span class="eyebrow-line"></span>
-        Restoration Ecology &bull; Watershed Science &bull; GIS
-      </p>
-      <h1 class="hero-name">
-        Kaitlyn<br>
-        <em>Rawlings</em>
-      </h1>
-      <p class="hero-tagline">Where rivers meet data.</p>
-      <p class="hero-bio">
-        Environmental scientist and GIS analyst with field roots in plant-soil ecology and professional expertise in hydrological spatial analysis. Currently seeking funded MS research in river restoration and watershed science.
-      </p>
-      <div class="hero-cta">
-        <a href="#portfolio" class="btn-primary">View Projects</a>
-        <a href="#contact" class="btn-ghost">Get in Touch</a>
+    <div class="hero-three">
+
+      <!-- LEFT: Name + CTA -->
+      <div class="hero-col-left">
+        <p class="hero-eyebrow">
+          <span class="eyebrow-line"></span>
+          Restoration Ecology &bull; GIS &bull; Field Science
+        </p>
+        <h1 class="hero-name">
+          Kaitlyn<br>
+          <em>Rawlings</em>
+        </h1>
+        <p class="hero-tagline">Where ecology meets spatial science.</p>
+        <div class="hero-cta">
+          <a href="#portfolio" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-ghost">Get in Touch</a>
+        </div>
       </div>
+
+      <!-- CENTER: Photo (narrow) -->
+      <div class="hero-col-photo">
+        <!-- To swap in your real photo, replace the div below with:
+             <img src="assets/kaitlyn-photo.jpg" alt="Kaitlyn Rawlings"> -->
+        <div class="hero-photo-placeholder">
+          <svg width="32" height="32" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="24" cy="18" r="9" stroke="#7A8C6E" stroke-width="1"/>
+            <path d="M6 42c0-9.941 8.059-18 18-18s18 8.059 18 18" stroke="#7A8C6E" stroke-width="1" fill="none"/>
+          </svg>
+          <span class="placeholder-text">Add your photo</span>
+        </div>
+      </div>
+
+      <!-- RIGHT: Quick facts -->
+      <div class="hero-col-facts">
+        <div class="hero-fact">
+          <span class="hero-fact-label">Currently</span>
+          <span class="hero-fact-val">GIS Technician<br>City of Lenexa, KS</span>
+        </div>
+        <div class="hero-fact">
+          <span class="hero-fact-label">Education</span>
+          <span class="hero-fact-val">BS Environmental Studies<br>GIS Certificate · Univ. of Kansas</span>
+        </div>
+        <div class="hero-fact">
+          <span class="hero-fact-label">Background</span>
+          <span class="hero-fact-val">Field ecology · Spatial analysis<br>Restoration planning · Stormwater GIS</span>
+        </div>
+        <div class="hero-fact">
+          <span class="hero-fact-label">Pursuing</span>
+          <span class="hero-fact-val">Funded MS · River Restoration<br>or Watershed Science · Fall 2027</span>
+        </div>
+      </div>
+
     </div>
     <div class="hero-scroll-hint" aria-hidden="true">
       <span>Scroll</span>
@@ -99,9 +134,9 @@
       <h2 class="section-title">About</h2>
       <div class="about-grid">
         <div class="about-text">
-          <p>I'm an environmental scientist and spatial analyst based in Kansas City, with a background spanning field ecology, cartography, and municipal GIS. My work sits at the intersection of ecological science and data infrastructure — using spatial tools to understand and restore the landscapes that water shapes.</p>
-          <p>As a GIS Technician with the City of Lenexa, I build workflows and analyses that support stormwater management, infrastructure planning, and public works. Before that, I worked in telecom GIS, managed international scientific conferences, and spent a year traveling solo through twelve countries.</p>
-          <p>I'm pursuing a funded thesis-based MS in restoration ecology or watershed science, with a focus on river restoration, Low-Tech Process-Based Restoration (LTPBR), and field-integrated GIS. I'm drawn to programs with strong advisor relationships and hands-on fieldwork in warm, dry climates.</p>
+          <p>I'm an environmental scientist and GIS analyst based in Kansas City, with roots in field ecology and a professional career built around spatial data. My background connects plant-soil science, ecological assessment, and hands-on mapping work that turns field observations into actionable plans.</p>
+          <p>In my current role with the City of Lenexa, I build GIS workflows and analyses supporting stormwater management, infrastructure planning, and public works. Before that, I spent time in telecom GIS, managed international scientific conferences in Barcelona, and traveled solo through twelve countries — experiences that sharpened my adaptability as much as any coursework.</p>
+          <p>I'm drawn to river systems and the science of restoring them. I'm actively working toward a funded thesis-based MS in restoration ecology or watershed science — ideally with strong fieldwork, a well-matched advisor, and room to bring my GIS skills into the research design.</p>
         </div>
         <div class="about-facts">
           <div class="fact-card">
@@ -113,8 +148,8 @@
             <p class="fact-value">GIS Technician, City of Lenexa, KS</p>
           </div>
           <div class="fact-card">
-            <p class="fact-label">Focus Areas</p>
-            <p class="fact-value">River Restoration · Watershed Science · Stormwater GIS · Plant-Soil Ecology</p>
+            <p class="fact-label">Interests</p>
+            <p class="fact-value">River Restoration · Low-Tech Process-Based Restoration · Stormwater GIS · Plant-Soil Ecology</p>
           </div>
           <div class="fact-card">
             <p class="fact-label">Open To</p>
@@ -140,12 +175,9 @@
           <p class="skill-cat">Geospatial</p>
           <h3 class="skill-name">GIS & Spatial Analysis</h3>
           <div class="skill-tags">
-            <span class="tag">ArcGIS Pro</span>
-            <span class="tag">ArcGIS Online</span>
-            <span class="tag">QGIS</span>
-            <span class="tag">FME</span>
-            <span class="tag">Web Apps</span>
-            <span class="tag">Dashboards</span>
+            <span class="tag">ArcGIS Pro</span><span class="tag">ArcGIS Online</span>
+            <span class="tag">QGIS</span><span class="tag">FME</span>
+            <span class="tag">Web Apps</span><span class="tag">Dashboards</span>
           </div>
         </div>
         <div class="skill-card">
@@ -157,10 +189,8 @@
           <p class="skill-cat">Programming</p>
           <h3 class="skill-name">Python & Automation</h3>
           <div class="skill-tags">
-            <span class="tag">Python</span>
-            <span class="tag">arcpy</span>
-            <span class="tag">Automated Workflows</span>
-            <span class="tag">Data Processing</span>
+            <span class="tag">Python</span><span class="tag">arcpy</span>
+            <span class="tag">Automated Workflows</span><span class="tag">Data Processing</span>
           </div>
         </div>
         <div class="skill-card">
@@ -172,10 +202,8 @@
           <p class="skill-cat">Field Science</p>
           <h3 class="skill-name">Ecology & Field Methods</h3>
           <div class="skill-tags">
-            <span class="tag">Vegetation Sampling</span>
-            <span class="tag">Plant ID</span>
-            <span class="tag">Mycorrhizal Research</span>
-            <span class="tag">Restoration Planning</span>
+            <span class="tag">Vegetation Sampling</span><span class="tag">Plant ID</span>
+            <span class="tag">Mycorrhizal Research</span><span class="tag">Restoration Planning</span>
             <span class="tag">Invasive Species</span>
           </div>
         </div>
@@ -188,10 +216,8 @@
           <p class="skill-cat">Infrastructure</p>
           <h3 class="skill-name">Asset & Data Management</h3>
           <div class="skill-tags">
-            <span class="tag">CentralSquare</span>
-            <span class="tag">Database Management</span>
-            <span class="tag">Utility Mapping</span>
-            <span class="tag">Stormwater Analysis</span>
+            <span class="tag">CentralSquare</span><span class="tag">Database Management</span>
+            <span class="tag">Utility Mapping</span><span class="tag">Stormwater Analysis</span>
           </div>
         </div>
       </div>
@@ -207,57 +233,45 @@
 
         <article class="project-card">
           <div class="project-thumb thumb-stormwater">
-            <div class="thumb-overlay">
-              <span class="thumb-tag">GIS · Python · Hydrology</span>
-            </div>
+            <div class="thumb-overlay"><span class="thumb-tag">GIS · Python · Stormwater</span></div>
           </div>
           <div class="project-body">
             <p class="project-type">Automation Tool · Lenexa, KS</p>
             <h3 class="project-name">Stormwater Flood Analysis Toolbox</h3>
             <p class="project-desc">A Python/arcpy automated toolbox built for the City of Lenexa to support stormwater infrastructure analysis, identifying flood-prone areas and supporting capital planning decisions through spatial modeling.</p>
             <div class="project-tags">
-              <span class="tag">ArcGIS Pro</span>
-              <span class="tag">Python / arcpy</span>
-              <span class="tag">Stormwater GIS</span>
-              <span class="tag">Automation</span>
+              <span class="tag">ArcGIS Pro</span><span class="tag">Python / arcpy</span>
+              <span class="tag">Stormwater GIS</span><span class="tag">Automation</span>
             </div>
           </div>
         </article>
 
         <article class="project-card">
           <div class="project-thumb thumb-quindaro">
-            <div class="thumb-overlay">
-              <span class="thumb-tag">Restoration · GIS · Planning</span>
-            </div>
+            <div class="thumb-overlay"><span class="thumb-tag">Restoration · GIS · Planning</span></div>
           </div>
           <div class="project-body">
             <p class="project-type">Capstone Thesis · University of Kansas</p>
             <h3 class="project-name">Quindaro Bottoms Restoration Plan</h3>
             <p class="project-desc">Land management and restoration planning for the Quindaro Ruins site in Kansas City. Assessed ecological values, developed an invasive honeysuckle removal strategy, and designed trail corridors balancing access with ecological sensitivity.</p>
             <div class="project-tags">
-              <span class="tag">ArcGIS Pro</span>
-              <span class="tag">Ecological Assessment</span>
-              <span class="tag">Invasive Species</span>
-              <span class="tag">Trail Design</span>
+              <span class="tag">ArcGIS Pro</span><span class="tag">Ecological Assessment</span>
+              <span class="tag">Invasive Species</span><span class="tag">Trail Design</span>
             </div>
           </div>
         </article>
 
         <article class="project-card">
           <div class="project-thumb thumb-mycorrhizal">
-            <div class="thumb-overlay">
-              <span class="thumb-tag">Field Science · Research</span>
-            </div>
+            <div class="thumb-overlay"><span class="thumb-tag">Field Science · Research</span></div>
           </div>
           <div class="project-body">
             <p class="project-type">Research Assistantship · Kansas Biological Survey</p>
             <h3 class="project-name">Mycorrhizal Fungi & Plant-Soil Interactions</h3>
-            <p class="project-desc">Multi-year field and lab research under Dr. Jim Bever studying arbuscular mycorrhizal fungi and their role in soil community dynamics and plant symbiotic relationships. Included vegetation sampling, experimental design, and data collection.</p>
+            <p class="project-desc">Multi-year field and lab research under Dr. Jim Bever studying arbuscular mycorrhizal fungi and their role in soil community dynamics and plant symbiotic relationships.</p>
             <div class="project-tags">
-              <span class="tag">Field Research</span>
-              <span class="tag">Mycorrhizal Ecology</span>
-              <span class="tag">Vegetation Sampling</span>
-              <span class="tag">Lab Assays</span>
+              <span class="tag">Field Research</span><span class="tag">Mycorrhizal Ecology</span>
+              <span class="tag">Vegetation Sampling</span><span class="tag">Lab Assays</span>
             </div>
           </div>
         </article>
@@ -276,9 +290,9 @@
 
         <article class="map-card">
           <div class="map-thumb">
-            <!-- Replace with: <img src="maps/pedestrian-improvements-2026.jpg" alt="2026 Pedestrian Improvement Projects map"> -->
+            <!-- Replace with: <img src="maps/pedestrian-improvements-2026.jpg" alt="..."> -->
             <div class="map-placeholder">
-              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
                 <rect x="4" y="4" width="56" height="56" rx="2" stroke="#7A8C6E" stroke-width="1"/>
                 <path d="M4 20 Q20 14 32 22 Q44 30 60 20" stroke="#C8B89A" stroke-width="1" fill="none"/>
                 <path d="M4 32 Q18 26 32 34 Q46 42 60 32" stroke="#C8B89A" stroke-width="0.8" fill="none"/>
@@ -292,26 +306,23 @@
           <div class="map-info">
             <p class="map-org">City of Lenexa, KS</p>
             <h3 class="map-title">2026 Pedestrian Improvement Projects</h3>
-            <p class="map-desc">Infrastructure planning map illustrating proposed pedestrian corridor improvements across Lenexa. Produced in ArcGIS Pro for public works planning and stakeholder communication.</p>
+            <p class="map-desc">Infrastructure planning map illustrating proposed pedestrian corridor improvements across Lenexa. Produced in ArcGIS Pro for public works and stakeholder communication.</p>
             <div class="map-meta">
-              <span class="tag">ArcGIS Pro</span>
-              <span class="tag">Infrastructure</span>
-              <span class="tag">Public Works</span>
+              <span class="tag">ArcGIS Pro</span><span class="tag">Infrastructure</span><span class="tag">Public Works</span>
             </div>
           </div>
         </article>
 
         <article class="map-card">
           <div class="map-thumb">
-            <!-- Replace with: <img src="maps/pavement-suitability-2026.jpg" alt="2026 Pavement Reconstruction Site Suitability Analysis map"> -->
+            <!-- Replace with: <img src="maps/pavement-suitability-2026.jpg" alt="..."> -->
             <div class="map-placeholder">
-              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
                 <rect x="4" y="4" width="56" height="56" rx="2" stroke="#7A8C6E" stroke-width="1"/>
                 <rect x="10" y="12" width="18" height="14" rx="1" fill="#7A8C6E" opacity="0.25"/>
                 <rect x="34" y="20" width="22" height="12" rx="1" fill="#C8B89A" opacity="0.2"/>
                 <rect x="10" y="34" width="26" height="18" rx="1" fill="#A05C3A" opacity="0.2"/>
                 <rect x="40" y="36" width="16" height="16" rx="1" fill="#7A8C6E" opacity="0.15"/>
-                <path d="M10 12 L60 60" stroke="#C8B89A" stroke-width="0.5" opacity="0.3"/>
               </svg>
               <p class="map-placeholder-text">Add map image</p>
             </div>
@@ -319,20 +330,18 @@
           <div class="map-info">
             <p class="map-org">City of Lenexa, KS</p>
             <h3 class="map-title">2026 Pavement Reconstruction — Site Suitability Analysis</h3>
-            <p class="map-desc">Spatial suitability analysis identifying priority sites for pavement reconstruction based on condition data, usage patterns, and infrastructure context. Supports capital improvement planning.</p>
+            <p class="map-desc">Spatial suitability analysis identifying priority sites for pavement reconstruction based on condition data, usage patterns, and infrastructure context.</p>
             <div class="map-meta">
-              <span class="tag">ArcGIS Pro</span>
-              <span class="tag">Suitability Analysis</span>
-              <span class="tag">Asset Management</span>
+              <span class="tag">ArcGIS Pro</span><span class="tag">Suitability Analysis</span><span class="tag">Asset Management</span>
             </div>
           </div>
         </article>
 
         <article class="map-card">
           <div class="map-thumb">
-            <!-- Replace with: <img src="maps/quindaro-restoration.jpg" alt="Quindaro Bottoms restoration mapping outputs"> -->
+            <!-- Replace with: <img src="maps/quindaro-restoration.jpg" alt="..."> -->
             <div class="map-placeholder">
-              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
                 <rect x="4" y="4" width="56" height="56" rx="2" stroke="#7A8C6E" stroke-width="1"/>
                 <path d="M12 50 Q18 30 28 38 Q38 46 50 20" stroke="#7A8C6E" stroke-width="1.5" fill="none"/>
                 <path d="M20 54 Q24 40 32 44 Q40 48 48 32" stroke="#7A8C6E" stroke-width="1" fill="none" opacity="0.5"/>
@@ -344,11 +353,9 @@
           <div class="map-info">
             <p class="map-org">Quindaro Ruins Project Foundation / University of Kansas</p>
             <h3 class="map-title">Quindaro Bottoms — Restoration &amp; Trail Planning</h3>
-            <p class="map-desc">Ecological mapping outputs from the Quindaro capstone project: vegetation surveys, invasive species distribution, and proposed trail corridors mapped against habitat sensitivity areas.</p>
+            <p class="map-desc">Ecological mapping from the Quindaro capstone: vegetation surveys, invasive species distribution, and proposed trail corridors mapped against habitat sensitivity areas.</p>
             <div class="map-meta">
-              <span class="tag">ArcGIS Pro</span>
-              <span class="tag">Restoration Ecology</span>
-              <span class="tag">Trail Planning</span>
+              <span class="tag">ArcGIS Pro</span><span class="tag">Restoration Ecology</span><span class="tag">Trail Planning</span>
             </div>
           </div>
         </article>
@@ -366,147 +373,95 @@
       <div class="resume-layout">
         <div class="resume-col">
           <h3 class="resume-col-title">Professional Experience</h3>
-
           <div class="resume-item">
             <div class="resume-header">
-              <div>
-                <h4 class="resume-role">GIS Technician</h4>
-                <p class="resume-org">City of Lenexa — Lenexa, KS</p>
-              </div>
+              <div><h4 class="resume-role">GIS Technician</h4><p class="resume-org">City of Lenexa — Lenexa, KS</p></div>
               <span class="resume-date">Jul 2025 – Present</span>
             </div>
             <ul class="resume-bullets">
-              <li>Manage spatial data and produce maps, web apps, and dashboards supporting city planning, public works, and infrastructure projects using ArcGIS Pro and Esri suite</li>
-              <li>Write Python scripts and build automated workflows to streamline data updates and improve spatial data accuracy</li>
-              <li>Perform spatial and statistical analysis to support asset management and inform data-driven planning decisions</li>
+              <li>Manage spatial data and produce maps, web apps, and dashboards supporting city planning, public works, and infrastructure using ArcGIS Pro and Esri suite</li>
+              <li>Write Python scripts and automated workflows to streamline data updates and improve spatial data accuracy</li>
+              <li>Perform spatial and statistical analysis to support asset management and data-driven planning decisions</li>
             </ul>
           </div>
-
           <div class="resume-item">
             <div class="resume-header">
-              <div>
-                <h4 class="resume-role">GIS Analyst II</h4>
-                <p class="resume-org">Ervin Cable Construction LLC — Kansas City, MO</p>
-              </div>
+              <div><h4 class="resume-role">GIS Analyst II</h4><p class="resume-org">Ervin Cable Construction LLC — Kansas City, MO</p></div>
               <span class="resume-date">Dec 2023 – May 2024</span>
             </div>
             <ul class="resume-bullets">
-              <li>Utilized FME, ArcGIS Pro, and ArcGIS Online for field engineering activities related to telecom route planning and permitting</li>
-              <li>Graphically built workflows for data translation, format conversion, and automation for diverse telecom markets</li>
+              <li>Utilized FME, ArcGIS Pro, and ArcGIS Online for telecom route planning, permitting, and field engineering activities</li>
+              <li>Built graphical workflows for data translation, format conversion, and automation across diverse telecom markets</li>
             </ul>
           </div>
-
           <div class="resume-item">
             <div class="resume-header">
-              <div>
-                <h4 class="resume-role">Scientific Conference Manager</h4>
-                <p class="resume-org">Gordon Research Conferences — Barcelona, Spain</p>
-              </div>
+              <div><h4 class="resume-role">Scientific Conference Manager</h4><p class="resume-org">Gordon Research Conferences — Barcelona, Spain</p></div>
               <span class="resume-date">May – Aug 2023</span>
             </div>
             <ul class="resume-bullets">
-              <li>Oversaw on-site logistics and budget management for weekly scientific research conferences at a resort venue</li>
-              <li>Supervised staff and interfaced with conference Chairs to ensure compliance and smooth operations</li>
+              <li>Oversaw logistics and budget management for weekly scientific research conferences; supervised staff and interfaced with conference leadership</li>
             </ul>
           </div>
-
           <div class="resume-item">
             <div class="resume-header">
-              <div>
-                <h4 class="resume-role">Land Management Planning — Student Consultant</h4>
-                <p class="resume-org">Quindaro Ruins Project Foundation / University of Kansas</p>
-              </div>
+              <div><h4 class="resume-role">Land Management Planning — Student Consultant</h4><p class="resume-org">Quindaro Ruins Project Foundation / University of Kansas</p></div>
               <span class="resume-date">Jan – May 2023</span>
             </div>
             <ul class="resume-bullets">
-              <li>Mapped the Quindaro Ruins site and assessed ecological values, identifying environmental threats and restoration priorities</li>
-              <li>Developed invasive honeysuckle removal plan and designed proposed trail corridors balancing access and ecological sensitivity</li>
+              <li>Mapped the Quindaro Ruins site, assessed ecological values, and identified environmental restoration priorities</li>
+              <li>Developed invasive honeysuckle removal plan and designed trail corridors balancing access and ecological sensitivity</li>
             </ul>
           </div>
-
           <div class="resume-item">
             <div class="resume-header">
-              <div>
-                <h4 class="resume-role">GIS Analyst</h4>
-                <p class="resume-org">Topeka Utilities — Topeka, KS</p>
-              </div>
+              <div><h4 class="resume-role">GIS Analyst</h4><p class="resume-org">Topeka Utilities — Topeka, KS</p></div>
               <span class="resume-date">Jan – May 2022</span>
             </div>
             <ul class="resume-bullets">
               <li>Created, edited, and updated infrastructure geometry and related attributes using ArcGIS Pro and ArcMap</li>
             </ul>
           </div>
-
           <div class="resume-item">
             <div class="resume-header">
-              <div>
-                <h4 class="resume-role">Research Assistant</h4>
-                <p class="resume-org">Kansas Biological Survey — Lawrence, KS</p>
-              </div>
+              <div><h4 class="resume-role">Research Assistant</h4><p class="resume-org">Kansas Biological Survey — Lawrence, KS</p></div>
               <span class="resume-date">Feb – Dec 2021</span>
             </div>
             <ul class="resume-bullets">
-              <li>Assisted on ecological research projects studying plant and microbial interactions under Dr. Jim Bever</li>
-              <li>Conducted field experiments on arbuscular mycorrhizal fungi, maintaining research plots and performing vegetation sampling</li>
+              <li>Assisted ecological research on plant-microbial interactions under Dr. Jim Bever; maintained research plots and performed vegetation sampling</li>
+              <li>Conducted experiments on arbuscular mycorrhizal fungi and their role in soil community dynamics</li>
             </ul>
           </div>
-
         </div>
 
         <div class="resume-col">
           <h3 class="resume-col-title">Education</h3>
-
           <div class="resume-item">
             <div class="resume-header">
-              <div>
-                <h4 class="resume-role">Geographic Information Science, Certificate</h4>
-                <p class="resume-org">University of Kansas — Lawrence, KS</p>
-              </div>
+              <div><h4 class="resume-role">Geographic Information Science, Certificate</h4><p class="resume-org">University of Kansas — Lawrence, KS</p></div>
               <span class="resume-date">May 2024</span>
             </div>
           </div>
-
           <div class="resume-item">
             <div class="resume-header">
-              <div>
-                <h4 class="resume-role">BS, Environmental Studies</h4>
-                <p class="resume-org">University of Kansas — Lawrence, KS</p>
-              </div>
+              <div><h4 class="resume-role">BS, Environmental Studies</h4><p class="resume-org">University of Kansas — Lawrence, KS</p></div>
               <span class="resume-date">May 2023</span>
             </div>
             <p class="resume-detail">GPA: 3.65 · Coursework: Calc I &amp; II, Chem I &amp; II, Ecology, GIS, Restoration Planning</p>
           </div>
 
           <h3 class="resume-col-title" style="margin-top: 3rem;">Technical Skills</h3>
-
           <div class="skills-list">
-            <div class="skill-row">
-              <span class="skill-row-label">GIS Platforms</span>
-              <span class="skill-row-val">ArcGIS Pro, ArcGIS Online, QGIS, ArcMap</span>
-            </div>
-            <div class="skill-row">
-              <span class="skill-row-label">Programming</span>
-              <span class="skill-row-val">Python, arcpy, automated workflows</span>
-            </div>
-            <div class="skill-row">
-              <span class="skill-row-label">Data Tools</span>
-              <span class="skill-row-val">FME, CentralSquare, spatial databases</span>
-            </div>
-            <div class="skill-row">
-              <span class="skill-row-label">Analysis</span>
-              <span class="skill-row-val">Terrain analysis, interpolation, cost surfaces, stormwater modeling</span>
-            </div>
-            <div class="skill-row">
-              <span class="skill-row-label">Field Methods</span>
-              <span class="skill-row-val">Vegetation sampling, plant ID, experimental design, lab assays</span>
-            </div>
+            <div class="skill-row"><span class="skill-row-label">GIS Platforms</span><span class="skill-row-val">ArcGIS Pro, ArcGIS Online, QGIS, ArcMap</span></div>
+            <div class="skill-row"><span class="skill-row-label">Programming</span><span class="skill-row-val">Python, arcpy, automated workflows</span></div>
+            <div class="skill-row"><span class="skill-row-label">Data Tools</span><span class="skill-row-val">FME, CentralSquare, spatial databases</span></div>
+            <div class="skill-row"><span class="skill-row-label">Analysis</span><span class="skill-row-val">Terrain analysis, interpolation, cost surfaces, stormwater modeling</span></div>
+            <div class="skill-row"><span class="skill-row-label">Field Methods</span><span class="skill-row-val">Vegetation sampling, plant ID, experimental design, lab assays</span></div>
           </div>
-
           <div class="resume-download">
             <a href="assets/Kaitlyn_Rawlings_Resume_2026.pdf" class="btn-primary" download>Download Full Resume (PDF)</a>
           </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -523,31 +478,16 @@
         </div>
         <div class="contact-right">
           <a href="mailto:kaitlynrawlings1@gmail.com" class="contact-link">
-            <div class="contact-link-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
-            </div>
-            <div>
-              <span class="contact-link-type">Email</span>
-              <span class="contact-link-val">kaitlynrawlings1@gmail.com</span>
-            </div>
+            <div class="contact-link-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg></div>
+            <div><span class="contact-link-type">Email</span><span class="contact-link-val">kaitlynrawlings1@gmail.com</span></div>
           </a>
           <a href="tel:17852303744" class="contact-link">
-            <div class="contact-link-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .99h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
-            </div>
-            <div>
-              <span class="contact-link-type">Phone</span>
-              <span class="contact-link-val">1.785.230.3744</span>
-            </div>
+            <div class="contact-link-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .99h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg></div>
+            <div><span class="contact-link-type">Phone</span><span class="contact-link-val">1.785.230.3744</span></div>
           </a>
-          <a href="https://github.com/" target="_blank" rel="noopener" class="contact-link">
-            <div class="contact-link-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
-            </div>
-            <div>
-              <span class="contact-link-type">GitHub</span>
-              <span class="contact-link-val">github.com/kaitlynrawlings</span>
-            </div>
+          <a href="https://github.com/kaitlynrawlings" target="_blank" rel="noopener" class="contact-link">
+            <div class="contact-link-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg></div>
+            <div><span class="contact-link-type">GitHub</span><span class="contact-link-val">github.com/kaitlynrawlings</span></div>
           </a>
           <p class="contact-note">Based in Kansas City, MO — open to relocation for the right opportunity.</p>
         </div>
