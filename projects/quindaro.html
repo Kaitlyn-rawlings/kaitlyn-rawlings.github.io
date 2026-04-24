@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quindaro Ruins Land Management Plan — Kaitlyn Rawlings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .pp { max-width: 1400px; margin: 0 auto; padding: 8rem 3rem 5rem; position: relative; z-index: 1; }
+    .project-back { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--sage); text-decoration: none; margin-bottom: 2.5rem; transition: color 0.2s; }
+    .project-back:hover { color: var(--sand); }
+    .project-back svg { width: 14px; height: 14px; }
+
+    /* HEADER + HERO SIDE BY SIDE */
+    .header-hero { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 3rem; align-items: center; margin-bottom: 3.5rem; }
+    .ph h1 { font-family: 'Playfair Display', serif; font-size: clamp(28px, 3.5vw, 44px); color: var(--cream); font-weight: 400; line-height: 1.15; margin-bottom: 1.25rem; }
+    .pmeta { display: flex; flex-wrap: wrap; gap: 1.5rem; padding: 1rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .mi { display: flex; flex-direction: column; gap: 0.2rem; }
+    .ml { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--sage); }
+    .mv { font-size: 12px; color: rgba(232,226,217,0.8); }
+    .hero-img { width: 100%; border-radius: 3px; border: 1px solid var(--line); display: block; }
+
+    /* CONTENT */
+    .content-grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 4rem; align-items: start; }
+    .ptxt { font-size: 15px; color: rgba(232,226,217,0.78); line-height: 1.9; margin-bottom: 1.25rem; }
+    .sc { background: rgba(255,255,255,0.03); border: 1px solid var(--line); border-radius: 3px; padding: 1.25rem 1.5rem; margin-bottom: 1rem; }
+    .scl { font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--sage); margin-bottom: 0.5rem; }
+    .scv { font-size: 13px; color: rgba(232,226,217,0.75); line-height: 1.6; }
+    .side-img { width: 100%; border-radius: 3px; border: 1px solid var(--line); display: block; margin-top: 1rem; }
+    .doc-btn { display: inline-flex; align-items: center; gap: 0.6rem; font-size: 11px; margin-top: 1.5rem; }
+    .site-link { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 12px; color: var(--sage); text-decoration: none; letter-spacing: 0.06em; transition: color 0.2s; margin-top: 0.75rem; display: block; }
+    .site-link:hover { color: var(--sand); }
+
+    @media (max-width: 900px) {
+      .pp { padding: 7rem 1.5rem 4rem; }
+      .header-hero { grid-template-columns: 1fr; gap: 2rem; }
+      .content-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topo-bg" aria-hidden="true">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <path d="M-100,420 Q180,280 380,400 Q580,520 780,360 Q980,200 1180,380 Q1380,560 1560,340" fill="none" stroke="#C8B89A" stroke-width="0.9"/>
+      <path d="M-100,455 Q180,315 380,435 Q580,555 780,395 Q980,235 1180,415 Q1380,595 1560,375" fill="none" stroke="#C8B89A" stroke-width="0.9"/>
+      <path d="M-100,490 Q180,350 380,470 Q580,590 780,430 Q980,270 1180,450 Q1380,630 1560,410" fill="none" stroke="#7A8C6E" stroke-width="0.7"/>
+    </svg>
+  </div>
+
+  <nav id="main-nav" class="scrolled">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-brand">KR <span>/ Ecology &amp; GIS</span></a>
+      <ul class="nav-links">
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#portfolio">Projects</a></li>
+        <li><a href="../index.html#resume">CV</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="pp">
+
+    <a href="../index.html#portfolio" class="project-back">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 12H5M5 12l7-7M5 12l7 7"/></svg>
+      Back to Projects
+    </a>
+
+    <!-- HEADER LEFT / PHOTO RIGHT -->
+    <div class="header-hero">
+      <div class="ph">
+        <p class="section-eyebrow">Capstone Project · University of Kansas · 2023</p>
+        <h1>Quindaro Ruins<br><em style="font-style:italic; color: var(--sand);">Land Management Plan</em></h1>
+        <div class="pmeta">
+          <div class="mi"><span class="ml">Client</span><span class="mv">Quindaro Ruins Project Foundation</span></div>
+          <div class="mi"><span class="ml">Institution</span><span class="mv">University of Kansas — Environmental Studies</span></div>
+          <div class="mi"><span class="ml">Location</span><span class="mv">Wyandotte County, Kansas City, KS</span></div>
+          <div class="mi"><span class="ml">Type</span><span class="mv">Land Management Planning · GIS · Ecological Assessment</span></div>
+        </div>
+      </div>
+      <img src="quindaro_western_university.jpg" alt="Western University at Quindaro — historic photograph" class="hero-img">
+    </div>
+
+    <!-- ABSTRACT + SIDEBAR -->
+    <div class="content-grid">
+      <div>
+        <p class="section-eyebrow" style="margin-bottom: 0.75rem;">Abstract</p>
+        <p class="ptxt">This Land Management Plan was created as a capstone project for the University of Kansas Environmental Studies Program. It was developed concurrently with a companion Cultural Landscape Assessment (Brown, 2023), which should be consulted alongside this document for a complete picture of the site's cultural and historical significance. This plan is designed for the Quindaro Ruins Project Foundation and its partners, including site planners, land managers, and preservation stakeholders.</p>
+        <p class="ptxt">The objectives of this land management plan are to assess the Quindaro Ruins site from an ecological and archaeological standpoint. Specifically, this plan: (1) provides a brief overview of the ecology and history of the Quindaro Township; (2) identifies goals for land development; (3) assesses the site's environmental and ecological values; (4) identifies environmental threats; (5) examines the condition of ruins and structures; (6) presents options for invasive honeysuckle and vegetation removal; (7) outlines trail implementation; and (8) discusses potential for recreational park development.</p>
+
+        <a href="../assets/Quindaro_LMP.pdf" target="_blank" rel="noopener" class="btn-primary doc-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          View Full Land Management Plan (PDF)
+        </a>
+
+        <a href="https://quindaroruinsprojectfoundationkck.org" target="_blank" rel="noopener" class="site-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          Visit the Quindaro Ruins Project Foundation
+        </a>
+      </div>
+
+      <div>
+        <div class="sc">
+          <p class="scl">Site</p>
+          <p class="scv">70.5 acres · Wyandotte County, Kansas City, KS · Kansas floodplain and Missouri River bluffs</p>
+        </div>
+        <div class="sc">
+          <p class="scl">Key Topics</p>
+          <p class="scv">Ecological assessment · Invasive honeysuckle management · Archaeological feature condition · Trail planning · Revegetation · GIS mapping</p>
+        </div>
+        <div class="sc">
+          <p class="scl">Tools</p>
+          <p class="scv">ArcGIS Pro · ArcGIS Online · MARC Green Infrastructure Data · NPS Condition Assessment Data</p>
+        </div>
+        <img src="quindaro_overlook.jpg" alt="View from the Quindaro Ruins overlook toward the Missouri River" class="side-img">
+      </div>
+    </div>
+
+  </main>
+
+  <footer style="position: relative; z-index: 1;">
+    <div class="footer-inner">
+      <p class="footer-left">Kaitlyn Rawlings &mdash; Restoration Ecology &amp; GIS</p>
+      <p class="footer-right"><a href="../index.html" style="color: var(--muted); text-decoration: none;">← Back to Portfolio</a></p>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('main-nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+  </script>
+</body>
+</html>
