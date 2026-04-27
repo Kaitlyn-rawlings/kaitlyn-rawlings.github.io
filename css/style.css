@@ -226,7 +226,7 @@ section { position: relative; z-index: 1; }
 .section-alt { background: rgba(255,255,255,0.025); }
 
 .section-inner {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 5rem 4rem;
 }
@@ -268,7 +268,7 @@ section { position: relative; z-index: 1; }
 }
 
 .hero-three {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
   width: 100%;
   display: grid;
