@@ -172,7 +172,7 @@
       <div>
         <p class="pe">Phase 3</p>
         <h3 class="pt">Pipe Capacity Analysis</h3>
-        <p class="ptxt">A custom Python script (catchment_capacity.py) applied Manning's equation to calculate full-flow pipe capacity for each catchment's connected enclosed gravity pipes. Where slope data was null — approximately 85% of records — a default of 1.0% was applied per City of Lenexa design standards. Total capacity was summed per inlet and normalized by catchment area.</p>
+        <p class="ptxt">A custom Python script (catchment_capacity.py) applied Manning's equation to calculate full-flow pipe capacity for each catchment's connected enclosed gravity pipes. Where slope data was null (approximately 85% of records) a default of 1.0% was applied per City of Lenexa design standards. Total capacity was summed per inlet and normalized by catchment area.</p>
         <div class="eq">
           <p class="eq-main">Q = (1/n) · A · R<sup>2/3</sup> · S<sup>1/2</sup></p>
           <p class="eq-vars">
@@ -226,9 +226,9 @@
     <p class="se">Conclusion</p>
     <h2 class="sh" style="margin-bottom: 1.5rem;">Findings</h2>
     <div class="conclusion">
-      <p>This analysis provides a citywide baseline assessment of stormwater infrastructure capacity across Lenexa. Of the 15,615 catchments delineated, 5,222 had sufficient pipe attribution to be assessed — and 98.7% showed adequate capacity for the 10-year 24-hour design storm, reflecting a well-maintained system.</p>
+      <p>This analysis provides a citywide baseline assessment of stormwater infrastructure capacity across Lenexa. Of the 15,615 catchments delineated, 5,222 had sufficient pipe attribution to be assessed and 98.7% showed adequate capacity for the 10-year 24-hour design storm, reflecting a well-maintained system.</p>
       <p>The adjusted risk assessment narrows the 66 at-risk catchments down to 33 with no supplemental infrastructure present. These are the highest priority locations for field verification, where the model identifies a deficit and no open channel or BMP data exists to suggest the risk may be mitigated.</p>
-      <p>The open channel and BMP map reveals that much of Lenexa's flood control capacity lies outside the enclosed pipe network — an important qualifier when interpreting risk results in infrastructure-rich areas. Taken together, these maps don't paint a picture of a stormwater crisis. They identify where to look, characterize what infrastructure exists, and give the city a data-driven foundation for prioritizing future capacity work.</p>
+      <p>The open channel and BMP map reveals that much of Lenexa's flood control capacity lies outside the enclosed pipe network, which is an important qualifier when interpreting risk results in infrastructure-rich areas. Taken together, these maps don't paint a picture of a stormwater crisis. They identify where to look, characterize what infrastructure exists, and give the city a data-driven foundation for prioritizing future capacity work.</p>
     </div>
 
     <hr class="divider">
@@ -241,11 +241,11 @@
         <div class="lim-grid">
           <div class="lim-item">
             <p class="lim-title">D8 Flow Routing</p>
-            <p class="lim-text">On flat terrain the D8 algorithm assigns flow direction arbitrarily, producing unrealistically large catchment polygons. This is particularly present in Lenexa's flat western half — deficit values in those areas should be interpreted with caution.</p>
+            <p class="lim-text">On flat terrain the D8 algorithm assigns flow direction arbitrarily, producing unrealistically large catchment polygons. This is particularly present in Lenexa's flat western half, therefore, deficit values in those areas should be interpreted with caution.</p>
           </div>
           <div class="lim-item">
             <p class="lim-title">Manning's Equation</p>
-            <p class="lim-text">Manning's assumes full-flow conditions free of blockages — an optimistic upper bound. Partial blockages, sediment, or aging infrastructure can all reduce actual capacity below the modeled value.</p>
+            <p class="lim-text">Manning's assumes full-flow conditions free of blockages. Partial blockages, sediment, or aging infrastructure can all reduce actual capacity below the modeled value.</p>
           </div>
           <div class="lim-item">
             <p class="lim-title">Incomplete Pipe Data</p>
@@ -253,15 +253,15 @@
           </div>
           <div class="lim-item">
             <p class="lim-title">NOAA Atlas 14</p>
-            <p class="lim-text">The 5.50 inch design storm is a single point estimate for the city and doesn't account for spatial variation — a real storm of this magnitude wouldn't deposit uniform rainfall across the entire city.</p>
+            <p class="lim-text">The 5.50 inch design storm is a single point estimate for the city and doesn't account for spatial variation. A real storm of this magnitude wouldn't deposit uniform rainfall across the entire city.</p>
           </div>
           <div class="lim-item">
             <p class="lim-title">Inlet-Only Pour Points</p>
-            <p class="lim-text">Only storm inlets were used as pour points — open channels and BMPs were not, meaning runoff draining to ditches or detention basins gets absorbed into the nearest inlet catchment, which may not reflect actual drainage paths.</p>
+            <p class="lim-text">Only storm inlets were used as pour points discluding open channels and BMPs. This means runoff draining to ditches or detention basins gets absorbed into the nearest inlet catchment, which may not reflect actual drainage paths.</p>
           </div>
           <div class="lim-item">
             <p class="lim-title">Open Channel &amp; BMP Capacity</p>
-            <p class="lim-text">Open channel and BMP infrastructure is inventoried but hydraulic capacity was not computed — cross-section geometry and stage-storage curves weren't available. Both are treated as qualitative context only.</p>
+            <p class="lim-text">Open channel and BMP infrastructure is inventoried but hydraulic capacity was not computed due to cross-section geometry and stage-storage curves being unavailable. Both are treated as qualitative context only.</p>
           </div>
           <div class="lim-item">
             <p class="lim-title">SSURGO Coverage</p>
